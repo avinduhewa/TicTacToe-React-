@@ -1,7 +1,7 @@
-var assert = require("assert");
+const assert = require('assert');
 
-describe("First Test",function() {
-    it("should pass when git push is initiated", function() {
-        assert.equal(true,true);
-    });
+describe ('First Test', () => {
+  it ('should pass when git push is initiated', () => {
+    assert.equal(true, true);
+  });
 });
