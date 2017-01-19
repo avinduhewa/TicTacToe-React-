@@ -1,7 +1,7 @@
-sudo: required
 language: node_js
 node_js:
   - "node"
 before_script:
   - npm install
-script: sudo npm test
+  - chmod 0777 ./node_modules/.bin/mocha
+script: npm test
