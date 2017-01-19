@@ -1,0 +1,12 @@
+{
+  "name": "TicTacToe-React",
+  "version": "0.0.1",
+  "description": "Simple TicTacToe application.",
+  "author": "Avindu Hewa",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
