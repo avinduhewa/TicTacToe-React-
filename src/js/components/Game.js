@@ -1,12 +1,12 @@
 /* eslint-disable */
 import React from 'react';
 
-
-export default class Layout extends React.Component {
+export default class Game extends React.Component {
 
   render() {
+
     return (
-      <h1>Title</h1>
+      <h1>This is the game</h1>
     );
   }
 }
