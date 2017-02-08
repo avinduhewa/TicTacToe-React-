@@ -1,6 +1,3 @@
-/**
- * @jsx React.DOM
- */
 (function(){
     //The game container (red)
     var Game = React.createClass({
